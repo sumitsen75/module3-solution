@@ -1,0 +1,61 @@
+body{
+	font-size: 16px;
+	color: black;
+}
+
+#header-nav{
+	background-color: darkgray;
+	border-radius: 0;
+	border:0;
+
+}
+
+.navbar-brand h1 { 
+  font-family: Comic Sans MS;
+  color: black;
+  font-size: 40px;    
+  text-shadow: 1px 1px 1px #222;
+ 
+  
+}
+
+.container-fluid{
+	margin: 0px 0px 0px 0px;	
+}
+
+#main-content{
+	background-color: white;
+	font-family : Comic Sans MS;
+}
+#main-content h1{
+	padding: 15px;
+}
+
+#items{
+	background-color: darkgray;
+	margin-top: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  border: 10px black;
+  text-align: center;
+  background-color: white;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+@media(min-width: 767px){
+	
+	#collapsable-nav{
+		visibility: hidden;
+	}
+	]
