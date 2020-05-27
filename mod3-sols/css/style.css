@@ -1,0 +1,90 @@
+body {  
+  font-size: 16px;
+	color: black;
+}
+
+
+#header-nav{
+	background-color: darkgray;
+	border-radius: 0;
+	border:0;	
+}
+
+.container-fluid{
+	margin: 0px 0px 0px 0px;	
+}
+
+
+.navbar {
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+}
+
+
+.navbar-brand { 
+  font-family: Comic Sans MS; 
+  font-size: 40px;    
+  text-shadow: 1px 1px 1px #222;
+  color:black;
+  padding-top: 30px;
+  height: 80px;  
+}
+ 
+.navbar-brand a { 
+  color: black;
+}  
+
+#main-content{
+	background-color: white;	
+}
+
+#main-content h1{
+	padding: 10px;
+	font-family:Comic Sans MS;
+}
+
+#items{
+	background-color: darkgray;
+	margin: 10px 10px 20px 10px;
+	padding: 10px;
+	font-family:Comic Sans MS;
+
+}
+
+#items h3{
+	font-family: Comic Sans MS;
+	font-size: 30px;	
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+ 
+}
+#nav-list a {
+  color: black;  
+  font-family: Comic Sans MS;
+  text-align: center;
+  background-color: white;  
+}
+#nav-list a:hover {
+  background: darkgray;
+}
+
+.tabs{
+	border:2px black solid;
+	}
+
+
+
+@media(min-width: 767px){
+	
+	#nav-list{
+		visibility: hidden;
+	}
+	]
